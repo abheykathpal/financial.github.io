@@ -1,0 +1,387 @@
+@media screen and (min-width:601px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .navbar{
+        position: fixed;
+        border: 1px solid gray;
+        width: 100%;
+        display: flex;
+        padding: 12px;
+        z-index: 99999;
+        background-color: white;
+    }
+
+    .navbar h1{
+        margin-left: 30px;
+        font-size: 25px;
+        margin-top: 16px;
+        width: 30%;
+    }
+
+    ul{
+        display: flex;
+        margin: 0 auto;
+        margin-top: 18px;
+    }
+
+    ul li{
+      list-style: none;
+    }
+
+   li a{
+        margin-left: 30px;
+        font-size: 20px;
+        font-weight: 800;
+        color: black;
+    }
+
+    ul li a:hover{
+      color: rgb(5,183,114);
+      cursor: pointer;
+    }
+
+    .consult{
+        margin-left: 100px;
+        font-size: 20px;
+        margin-top: -42px;
+    }
+
+    #phone{
+      font-size:35px; 
+      margin-left: 30px;
+      /* margin-top: 10px; */
+    }
+
+    .firstsec-head{
+        width: 40%; 
+        font-size: 55px; 
+        padding-top: 150px;
+        margin-left: 100px;
+        color: white;
+    }
+
+    .firstsec-bacpic{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('backpic.jpg');
+        height: 45em;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        margin-top: 26.4px;
+    }
+
+    .firstsec-para{
+        margin-left: 105px;
+        color: white;
+    }
+
+    .firstsec-btn{
+        padding: 15px 30px;
+        margin-left: 100px;
+        background-color: rgb(5,183,114);
+        border: 1px solid white;
+        color: white;
+        font-size: 18px;
+    }
+
+    .firstsec-btn:hover{
+        color:rgb(5,183,114);
+        background-color: white;
+    }
+
+    .secondsec-allbox{
+        display: flex;
+        width: 100%;
+        padding-left: 80px;
+    }
+
+    .secondsec-img{
+        width: 10%;
+        margin-top: 40px;
+        padding: 10px 130px;
+    }
+
+    .secondsec-box{
+        border: 1px solid rgb(5,183,114);
+        margin-top: -350px;
+        position: relative;
+        margin-left: 20px;
+        background-color: white;
+        width: 30%;
+        border-radius: 15px;
+    }
+
+    .box-img{
+        background-color: rgb(5,183,114);
+        color: white;
+    }
+
+    .secondsec-head{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .secondsec-para{
+        margin-top: 5px;
+        /* text-align: justify; */
+        width: 95%;
+        padding-left: 25px;
+        padding-bottom: 10px;
+    }
+
+    .onmobile {
+        display: none !important;
+    }
+
+ /* css for about section  */
+
+    .section1 {
+        background-color: rgb(5,183,114);
+        clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+        padding-bottom: 10%;
+        margin-top: -150px;
+        padding-top: 50px;
+      }
+      
+      .container {
+        width: 70%;
+        margin: 0 auto;
+      }
+      
+      .title {
+        text-align: center;
+        font-size: 2em;
+        color: white;
+      }
+      
+      .content-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2em 0;
+      }
+      
+      .img-wrapper {
+        width: 50%;
+      }
+      
+      .img{
+        width: 350px;
+        height: 300px;
+        background: #fff;
+        margin: 0 auto;
+      }
+      
+      .text-wrapper{
+        width: 50%;
+      }
+      
+      .text {
+        margin-bottom: 1em;
+        color: white;
+      }
+      
+      .btn-wrapper {
+        margin-top: 2em;
+      }
+      
+      .btn {
+        display: inline-block;
+        cursor: pointer;
+        border: 2px solid #fff;
+        padding: 0.5em 2em;
+        font-size: 1.1em;
+        font-weight: 600;
+        transition: all 0.2s ease-in-out;
+      }
+      
+      .btn:hover {
+        background-color: #fff;
+        color: rgb(5,183,114);
+}
+
+
+section {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .column {
+    width: 100%;
+    padding: 0 1em 1em 1em;
+    text-align: center;
+  }
+  .card {
+    width: 100%;
+    height: 100%;
+    padding: 2em 1.5em;
+    background: linear-gradient(#ffffff 50%, rgb(5,183,114) 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(5,183,114);
+    margin: 1em 0;
+  }
+  .Service-para{
+    color: rgb(5,183,114);
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+  }
+  .icon-wrapper {
+    background-color: rgb(5,183,114);
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    height: 2.5em;
+    width: 2.5em;
+    color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+  }
+  .card:hover {
+    background-position: 0 100%;
+  }
+  .card:hover .icon-wrapper {
+    background-color: #ffffff;
+    color: rgb(5,183,114);
+  }
+  .card:hover h3 {
+    color: #ffffff;
+  }
+  .card:hover p {
+    color: #f0f0f0;
+  }
+
+  @media screen and (min-width: 768px) {
+    /* section {
+      padding: 0 2em;
+    } */
+    .column {
+      flex: 0 50%;
+      max-width: 50%;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    /* section {
+      padding: 1em 3em;
+    } */
+    .column {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+    }
+  }
+
+
+    /* css for faq section  */
+
+    .faq-section {
+        font-family: "Poppins", sans-serif;
+        background-color: rgb(5,183,114);
+        padding: 60px 0;
+        text-align: center;
+        background-position: bottom right 0%;
+        margin-top: 100px;
+       }
+       
+       .faq-section .faq_left_half_circle {
+        position: absolute;
+        left: 80px;
+       }
+       
+       .faq-section .faq_left_half_circle img {
+        position: relative;
+        top: 140px;
+       }
+       
+       .faq-section h3 {
+        color: #fff;
+        text-align: center;
+        padding-bottom: 50px;
+        font-size: 30px;
+        margin-top: -100px;
+       }
+       
+       .faq-section .faq-accordions {
+        max-width: 760px;
+        margin: 0 auto;
+       }
+       
+       .faq-section .faq-accordions .accordion-row {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid white;
+        cursor: pointer;
+       }
+       
+       .faq-section .faq-accordions .accordion-row .title {
+        text-align: left;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 500;
+        position: relative;
+        padding-right: 30px;
+       }
+       
+       .faq-section .faq-accordions .title:after {
+        content: '';
+        position: absolute;
+        border-left: #fff 2px solid;
+        border-bottom: #fff 2px solid;
+        right: 10px;
+        top: 8px;
+        -moz-transition: all .5s linear;
+        -webkit-transition: all .5s linear;
+        transition: all .5s linear;
+        width: 10px;
+        height: 10px;
+        z-index: 1;
+        transform: rotate(-45deg);
+       }
+       
+       .faq-section .faq-accordions .title.open:after {
+        transform: rotate(135deg);
+        top: 14px;
+       }
+       
+       .faq-section .faq-accordions .accordion-row .content {
+        text-align: left;
+        color: #fff;
+        font-size: 16px;
+        line-height: 30px;
+        overflow: hidden;
+        height: 0px;
+        transition: 0.5s all;
+       }
+       
+       .faq-section .faq-accordions .accordion-row .open + .content {
+        height: auto;
+        overflow: initial;
+        padding: 20px 0px;
+       }
+       @media(max-width:1200px) {
+       .faq-section .faq-accordions .accordion-row .title {
+           font-size: 18px;
+       }
+       }
+}
